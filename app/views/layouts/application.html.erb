@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>SeanKingPortfolio1</title>
-	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<!--<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>-->
+	<!-- <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %> -->
 	<%= csrf_meta_tags %>
 
 	<!--=============== basic  ===============-->
@@ -28,7 +28,7 @@
         <div class="header-inner">
             <!-- Logo  -->
             <div class="logo-holder">
-                <a href="index.html"><img src="../images/logo.png" alt=""></a>
+                <a href="index.html"><img src="http://res.cloudinary.com/mckshreder/image/upload/c_scale,w_123/v1445061326/Itinerant-logo_1_si9qkd.png" alt=""></a>
             </div>
             <!--Logo end  -->
             <!--Navigation  -->
@@ -41,8 +41,7 @@
                     <ul>
                         <li><%= link_to "Home", pages_index_path %></li>
                         <!-- <li><%= link_to "Portfolio", pages_portfolio_path %></li> -->
-                        <li><a href="about.html">About</a>
-                        </li>
+                        
                        
                         <li>
                             <%= link_to "Portfolio", pages_portfolio_path %>
@@ -87,7 +86,7 @@
                                 <li><a href="404.html">404</a></li>
                             </ul>
                         </li>
-
+						<li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="blog.html">Blog</a></li>
                     </ul>
@@ -123,5 +122,6 @@
     <div class="to-top"><i class="fa fa-angle-up"></i></div>
 </footer>
 <!-- footer end -->
+
 </body>
 </html>
