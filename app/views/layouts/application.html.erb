@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SeanKingPortfolio1</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+
+	<!--=============== basic  ===============-->
+	<meta charset="UTF-8">
+	<title>Outdoor  - Responsive  Photography Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="robots" content="index, follow"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<!--=============== css  ===============-->	
+	<link type="text/css" rel="stylesheet" href="../css/reset.css" media="all" data-turbolinks-track>
+	<link type="text/css" rel="stylesheet" href="../css/plugins.css" media="all" data-turbolinks-track>
+	<link type="text/css" rel="stylesheet" href="../css/style.css" media="all" data-turbolinks-track>
+	<link type="text/css" rel="stylesheet" href="../css/yourstyle.css" media="all" data-turbolinks-track>
+	<!--=============== favicons ===============-->
+	<link rel="shortcut icon" href="../images/favicon.ico">
+
+</head>
+<body>
+	 <header>
+        <!-- Header inner  -->
+        <div class="header-inner">
+            <!-- Logo  -->
+            <div class="logo-holder">
+                <a href="index.html"><img src="../images/logo.png" alt=""></a>
+            </div>
+            <!--Logo end  -->
+            <!--Navigation  -->
+            <div class="nav-button-holder">
+                <div class="nav-button vis-m"><span></span><span></span><span></span></div>
+            </div>
+            <div class="show-share isShare">Share</div>
+            <div class="nav-holder">
+                <nav>
+                    <ul>
+                        <li><%= link_to "Home", pages_index_path %></li>
+                        <!-- <li><%= link_to "Portfolio", pages_portfolio_path %></li> -->
+                        <li><a href="about.html">About</a>
+                        </li>
+                       
+                        <li>
+                            <%= link_to "Portfolio", pages_portfolio_path %>
+                            <ul>
+                                <li>
+                                    <a>Home</a>
+                                    <ul>
+                                        <li><a href="index.html">Slider</a></li>
+                                        <li><a href="index2.html">Slideshow</a></li>
+                                        <li><a href="index3.html">Multi Slider</a></li>
+                                        <li><a href="index4.html">Video</a></li>
+                                        <li><a href="index5.html">horizontal</a></li>
+                                        <li><a href="index6.html">Image</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="aboutme.html">About me</a></li>
+                                <li><a href="blog-single.html">Blog single</a></li>
+                                <li><a href="contact2.html">Contact 2</a></li>
+                                <li>
+                                    <a>Portfolio</a>
+                                    <ul>
+                                        <li><a href="portfolio.html">horizontal</a></li>
+                                        <li><a href="portfolio2.html">Masonry</a></li>
+                                        <li><a href="portfolio3.html">Grid 3</a></li>
+                                        <li><a href="portfolio4.html">Grid 4</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a>Portfolio single</a>
+                                    <ul>
+                                        <li><a href="portfolio-single.html">Style 1</a></li>
+                                        <li><a href="portfolio-single2.html">Style 2</a></li>
+                                        <li><a href="portfolio-single3.html">Style 3</a></li>
+                                        <li><a href="portfolio-single4.html">Style 4</a></li>
+                                        <li><a href="portfolio-single5.html">Style 5</a></li>
+                                        <li><a href="portfolio-single6.html">Style 6</a></li>
+                                        <li><a href="portfolio-single7.html">Style 7</a></li>
+                                        <li><a href="portfolio-single8.html">Style 8</a></li>
+                                        <li><a href="portfolio-single9.html">Style 9</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="404.html">404</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--navigation end -->
+        </div>
+        <!--Header inner end  -->	
+    </header>
+
+<%= yield %>
+
+
+<footer>
+    <div class="policy-box">
+        <span>&#169; Sean King 2015 . All rights reserved. </span> 
+        <ul>
+            <li><a href="#">yourmail@domain.com</a></li>
+            <li><a href="#">+7(111)123456789</a></li>
+        </ul>
+    </div>
+    <!-- footer social -->
+    <div class="footer-social">
+        <ul>
+            <li><a href="#" target="_blank" ><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank" ><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank" ><i class="fa fa-pinterest"></i></a></li>
+            <li><a href="#" target="_blank" ><i class="fa fa-tumblr"></i></a></li>
+        </ul>
+    </div>
+    <!-- footer social end -->
+    <div class="to-top"><i class="fa fa-angle-up"></i></div>
+</footer>
+<!-- footer end -->
+</body>
+</html>
