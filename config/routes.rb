@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get 'pages/portfolio'
 
+  get 'pages/abandoned'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
