@@ -12,18 +12,18 @@
                 <div class="content-holder elem scale-bg2 transition3" >
                     <!--=============== Content  ===============-->
                     <div class="content full-height">
-                        <div class="fixed-title"><span>Portfolio</span></div>
+                        <!-- <div class="fixed-title"><span>Portfolio</span></div> -->
                         <!-- Portfolio counter  -->	
-                        <div class="count-folio">
+                        <!-- <div class="count-folio">
                             <div class="num-album"></div>
                             <div class="all-album"></div>
-                        </div>
+                        </div> -->
                         <!-- Portfolio counter end -->	
                         <div class="filter-holder column-filter">
-                            <div class="filter-button">Filter <i class="fa fa-long-arrow-down"></i></div>
+                            <div class="filter-button">View All<i class="fa fa-long-arrow-down"></i></div>
                             <div class="gallery-filters hid-filter">
-                                <a href="#" class="gallery-filter transition2 gallery-filter_active" data-filter="*">All Albums</a>
-                                <a href="#" class="gallery-filter transition2" data-filter=".abandened">Abandened</a>
+                                <!-- <a href="#" class="gallery-filter transition2 gallery-filter_active" data-filter="*">All Albums</a> -->
+                                <a href="#" class="gallery-filter transition2" data-filter=".abandoned">Abandoned</a>
                                 <a href="#" class="gallery-filter transition2" data-filter=".corregidor">Corregidor</a>
                                 <a href="#" class="gallery-filter transition2" data-filter=".anthro">Anthro</a>
                                 <a href="#" class="gallery-filter transition2" data-filter=".streets">Streets</a>
@@ -31,8 +31,7 @@
                                 <a href="#" class="gallery-filter transition2" data-filter=".species">Species</a>
                                 <a href="#" class="gallery-filter transition2" data-filter=".landscape">Landscape</a>
                                 <a href="#" class="gallery-filter transition2" data-filter=".country">Country</a>
-                                <a href="#" class="gallery-filter transition2" data-filter=".country">Country</a>
-                                <a href="#" class="gallery-filter transition2" data-filter=".country">Country</a>
+                                <a href="#" class="gallery-filter transition2" data-filter=".landscape">Landscape</a>
                             </div>
                         </div>
                         <!--=============== portfolio holder ===============-->
@@ -40,13 +39,13 @@
                             <div class="p_horizontal_wrap">
                                 <div id="portfolio_horizontal_container">
                                     <!-- portfolio item -->
-                                    <div class="portfolio_item nature abandened">
-                                        <img  src="http://res.cloudinary.com/dm3jnl0jy/image/upload/c_scale,h_1070,w_1600/v1445050662/AA024_sumxqm.jpg"   alt="">
+                                    <div class="portfolio_item nature abandoned">
+                                        <img  src="http://res.cloudinary.com/dm3jnl0jy/image/upload/c_scale,h_1070,w_1600/v1445050659/AA008_tsjxrf.jpg"   alt="">
                                         <div class="port-desc-holder">
                                             <div class="port-desc">
                                                 <div class="overlay"></div>
                                                 <div class="grid-item">
-                                                    <h3><a href="portfolio-single.html">Abandened</a></h3>
+                                                    <h3><%= link_to "Abandoned", pages_abandoned_path %></h3>
                                                     <span>Nature</span>
                                                 </div>
                                             </div>
@@ -56,7 +55,7 @@
                                     <!-- portfolioitem end -->
                                     <!-- portfolio item -->
                                     <div class="portfolio_item corregidor comercial">
-                                        <img  src="http://res.cloudinary.com/dm3jnl0jy/image/upload/c_scale,h_1070,w_1600/v1445050658/AA020_eyjcop.jpg"   alt="">
+                                        <img  src="http://res.cloudinary.com/dm3jnl0jy/image/upload/c_scale,h_1070,w_1600/v1445060176/IMG_9819_qmsjcm.jpg"   alt="">
                                         <div class="port-desc-holder">
                                             <div class="port-desc">
                                                 <div class="overlay"></div>
@@ -86,7 +85,7 @@
                                     <!-- portfolioitem end -->
                                     <!-- portfolio item -->
                                     <div class="portfolio_item View Location streets">
-                                        <img  src="http://res.cloudinary.com/dm3jnl0jy/image/upload/c_scale,h_1070,w_1600/v1445060176/IMG_9819_qmsjcm.jpg"   alt="">
+                                        <img  src="http://res.cloudinary.com/dm3jnl0jy/image/upload/c_scale,h_1070,w_1600/v1445050658/AA020_eyjcop.jpg"   alt="">
                                         <div class="port-desc-holder">
                                             <div class="port-desc">
                                                 <div class="overlay"></div>
@@ -145,7 +144,7 @@
                                     </div>
                                     <!-- portfolio item end -->                            
                                     <!-- portfolio item -->
-                                    <div class="portfolio_item View Location nature">
+                                    <div class="portfolio_item View Location landscape">
                                         <img  src="http://res.cloudinary.com/dm3jnl0jy/image/upload/c_scale,h_1070,w_1600/v1445050659/AA008_tsjxrf.jpg"   alt="">
                                         <div class="port-desc-holder">
                                             <div class="port-desc">
@@ -162,6 +161,15 @@
                                 </div>
                                 <!--portfolio_horizontal_container  end-->        
                             </div>
+                           <!-- slider  pagination -->
+                            <!-- <div class="pagination"></div> -->
+                            <!-- pagination  end -->
+                            <!-- slider navigation  -->
+                            <!-- <div class="swiper-nav-holder hor hs">
+                                <a class="swiper-nav arrow-left transition " href="#"><i class="fa fa-angle-left"></i></a>
+                                <a class="swiper-nav  arrow-right transition" href="#"><i class="fa fa-angle-right"></i></a>
+                            </div> -->
+                            <!-- slider navigation  end -->
                             <!--p_horizontal_wrap  end-->                    
                         </div>
                     </div>
